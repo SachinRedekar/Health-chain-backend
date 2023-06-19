@@ -1,0 +1,38 @@
+{
+    "recordsets": [
+        [
+            {
+                "id": 241,
+                "fhir_id": "b1797f57-81c0-4f96-bd51-a67fd97a75d2",
+                "identifier_system": "http://example.com/familymemberhistory",
+                "identifier_value": "12345678",
+                "identifier_use": "NULL",
+                "resource_type": "FamilyMemberHistory",
+                "codeableconcept_id": "NULL",
+                "identifier_assigner": "NULL",
+                "reference_id": "NULL",
+                "identifier_id": "NULL",
+                "identifier_type": "NULL"
+            }
+        ]
+    ],
+    "recordset": [
+        {
+            "id": 241,
+            "fhir_id": "b1797f57-81c0-4f96-bd51-a67fd97a75d2",
+            "identifier_system": "http://example.com/familymemberhistory",
+            "identifier_value": "12345678",
+            "identifier_use": "NULL",
+            "resource_type": "FamilyMemberHistory",
+            "codeableconcept_id": "NULL",
+            "identifier_assigner": "NULL",
+            "reference_id": "NULL",
+            "identifier_id": "NULL",
+            "identifier_type": "NULL"
+        }
+    ],
+    "output": {},
+    "rowsAffected": [
+        1
+    ]
+}

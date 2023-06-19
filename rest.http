@@ -1,0 +1,14 @@
+GET http://localhost:3000/data
+
+
+###
+GET http://localhost:3000/data/id
+
+
+###
+POST http://localhost:3000/HCQuery/subscriber_id
+Content-Type: application/json
+
+{
+    "id": "b1797f57-81c0-4f96-bd51-a67fd97a75d2"
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HCQuery</title>
+</head>
+<body>
+    <form action="/identifier_tab" method="post">
+        <input type="text" name="id" 
+            placeholder="First Number">
+              
+        <button type="submit" name="submit">
+            Submit
+        </button>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
+
+<!-- <script>
+    document.querySelector('form').addEventListener('submit', async (event) => {
+      event.preventDefault();
+  
+      const formData = new FormData(event.target);
+      const response = await fetch('/identifier_tab', {
+        method: 'POST',
+        body: formData,
+      });
+
+      console.log(response)
+  
+      const result = await response.text(); // Get the response text
+  
+      document.getElementById('result').innerHTML = result; // Display the result
+    });
+</script> -->
